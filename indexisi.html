@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylenavbar.css">
+    <link rel="stylesheet" href="css/styleisi.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="js/scriptisi.js"></script>
+</head>
+<body onload="isi(1)">
+    <!-- navbar -->
+
+<nav>
+
+    <ul>
+        <li class="bt2"><a href="index.html">HOME</a></li>
+        <li class="bt2"><a href="indextujuan.html">TUJUAN</a></li>
+        <li class="bt2"><a href="indexcontact.html">CONTACT US</a></li>
+        
+    </ul>
+    
+    <div class="mt" onclick="menu()">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+  </nav>
+
+  <!-- navbaar isi -->
+
+  <nav class="navbar1">
+    <a onclick="isi(2)" id="bahanajar">Bahan Ajar</a>
+    <a onclick="isi(3)" id="petakonsep">Peta Konsep</a>
+    <a onclick="isi(4)" id="materi">Materi</a>
+    <a onclick="isi(5)" id="evaluasi">Evaluasi</a>
+    <div class="animation start-home"></div>
+  </nav>
+
+  <div class="box" id="halaman">
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
